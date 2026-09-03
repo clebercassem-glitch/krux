@@ -1,0 +1,37 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">KRUX Tecnologia</title>
+  <desc id="desc">Logotipo KRUX com letras prateadas e cruz azul no X.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#cfd4da"/>
+      <stop offset="0.5" stop-color="#f7f8fa"/>
+      <stop offset="0.75" stop-color="#8f969f"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00aaff"/>
+      <stop offset="1" stop-color="#0066ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 0.42  0 0 0 0 1  0 0 0 .95 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="260" fill="transparent"/>
+  <g fill="url(#silver)">
+    <path d="M42 45h54v118H42V45Zm60 59 95-59h88l-109 66 116 52h-93l-97-45v-14Z"/>
+    <path d="M308 45h145c45 0 70 21 70 58 0 28-15 47-43 55l53 5v0h-74l-70-50h60c13 0 20-5 20-16 0-10-7-15-20-15h-87v81h-54V45Z"/>
+    <path d="M565 45h54v67c0 14 7 21 22 21h87c15 0 22-7 22-21V45h54v76c0 29-8 50-25 64-16 14-40 21-72 21h-46c-32 0-56-7-72-21-16-14-24-35-24-64V45Z"/>
+    <path d="M812 45h66l40 39 40-39h66l-71 68 73 50h-67l-42-31-41 31h-66l71-50-69-68Z" transform="translate(-95 0)"/>
+  </g>
+  <g filter="url(#glow)" transform="translate(790 86)">
+    <rect x="25" y="0" width="32" height="88" rx="7" fill="url(#blue)"/>
+    <rect x="-3" y="28" width="88" height="32" rx="7" fill="url(#blue)"/>
+  </g>
+  <text x="52" y="229" fill="#0066ff" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="600" letter-spacing="30">TECNOLOGIA</text>
+</svg>

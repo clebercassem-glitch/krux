@@ -1,0 +1,58 @@
+<svg width="1640" height="624" viewBox="0 0 1640 624" xmlns="http://www.w3.org/2000/svg">
+    
+    <defs>
+      <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#fff"/>
+        <stop offset=".25" stop-color="#aeb4bd"/>
+        <stop offset=".52" stop-color="#f4f6f8"/>
+        <stop offset=".82" stop-color="#737b86"/>
+        <stop offset="1" stop-color="#fff"/>
+      </linearGradient>
+      <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#00AAFF"/>
+        <stop offset="1" stop-color="#0066FF"/>
+      </linearGradient>
+      <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+        <feGaussianBlur stdDeviation="9" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 .42 0 0 0 0 1 0 0 0 .85 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+        <path d="M72 0H0v72" fill="none" stroke="rgba(255,255,255,.055)" stroke-width="1"/>
+      </pattern>
+    </defs>
+    
+    <rect width="1640" height="624" fill="#0B0D10"/>
+    <rect width="1640" height="624" fill="url(#grid)" opacity=".75"/>
+    <path d="M902.0000000000001 0H1640V624H1279.2C1066 386.88 1000.4 180.95999999999998 902.0000000000001 0Z" fill="#0066FF" opacity=".16"/>
+    <path d="M0 474.24C360.8 424.32000000000005 705.2 555.36 1640 386.88" stroke="#0066FF" stroke-width="2" opacity=".34"/>
+    <path d="M0 480.48C360.8 430.55999999999995 705.2 561.6 1640 393.12" stroke="#00AAFF" stroke-width="1" opacity=".25"/>
+  
+    
+  <g>
+    <g fill="url(#silver)">
+      <path d="M96 118h30.24v66.24h-30.24V118Zm34.56 41.76 53.28-41.76h48.96l-61.919999999999995 38.879999999999995 65.52 27.36h-51.839999999999996l-54-23.759999999999998v-0.72Z"/>
+      <path d="M248.64 118h81.36c25.2 0 39.6 11.52 39.6 32.4 0 15.84-8.64 26.64-24.48 30.959999999999997l29.52 2.88h-41.04l-38.879999999999995-28.08h33.839999999999996c7.199999999999999 0 11.52-2.88 11.52-9.36 0-5.76-4.32-8.64-11.52-8.64h-48.96v46.08h-30.24V118Z"/>
+      <path d="M391.2 118h30.24v37.44c0 7.92 4.32 11.52 12.959999999999999 11.52h48.239999999999995c8.64 0 12.959999999999999-3.5999999999999996 12.959999999999999-11.52V118h30.24v42.48c0 16.56-5.04 28.08-14.399999999999999 36-9.36 7.92-22.32 12.24-40.32 12.24h-25.919999999999998c-18 0-31.68-4.32-41.04-12.24-8.64-7.92-13.68-19.439999999999998-13.68-36V118Z"/>
+      <path d="M561.12 118h38.879999999999995l24.48 23.759999999999998 23.759999999999998-23.759999999999998h38.879999999999995l-40.32 43.199999999999996 41.04 23.04h-39.6l-24.48-14.399999999999999-24.48 14.399999999999999h-39.6l41.04-23.04-39.6-43.199999999999996Z"/>
+    </g>
+    <g filter="url(#glow)">
+      <rect x="620.16" y="147.52" width="18" height="50.4" rx="4.32" fill="url(#blue)"/>
+      <rect x="604.3199999999999" y="163.36" width="50.4" height="18" rx="4.32" fill="url(#blue)"/>
+    </g>
+    <text x="101.76" y="222.39999999999998" font-family="Arial, Helvetica, sans-serif" font-size="17.28" font-weight="700" fill="#0066FF" letter-spacing="9.36">TECNOLOGIA</text>
+  </g>
+    <text x="102" y="420" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="900" fill="#FFFFFF">Tecnologia com propósito.</text>
+    <text x="102" y="468" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="900" fill="#FFFFFF">Performance com confiança.</text>
+    <text x="104" y="528" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#AEB6C2">Suporte, sustentação, implantação, SQL Server, ERP e integrações em Belém/PA.</text>
+    
+    <g>
+      <rect x="1200" y="132" width="360" height="360" rx="50.625" fill="#0B0D10" stroke="rgba(255,255,255,.16)" stroke-width="1.40625"/>
+      <path d="M1266.09375 200.203125h68.90625l45 44.296875 45-44.296875h68.90625L1413.046875 312l81.5625 111.796875h-69.609375l-45-44.296875-45 44.296875H1266.09375l81.5625-111.796875L1266.09375 200.203125Z" fill="url(#silver)"/>
+      <path d="M1304.765625 231.84375h16.875l58.359375 57.65625 58.359375-57.65625h16.875l-62.578125 80.15625 62.578125 80.15625h-16.875l-58.359375-57.65625-58.359375 57.65625h-16.875l62.578125-80.15625-62.578125-80.15625Z" fill="#0B0D10" opacity=".62"/>
+      <g filter="url(#glow)">
+        <rect x="1365.9375" y="255.75" width="28.125" height="112.5" rx="7.03125" fill="url(#blue)"/>
+        <rect x="1323.75" y="297.9375" width="112.5" height="28.125" rx="7.03125" fill="url(#blue)"/>
+      </g>
+    </g>
+  </svg>

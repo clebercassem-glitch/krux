@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Simbolo KRUX</title>
+  <desc id="desc">X prateado com cruz azul central.</desc>
+  <defs>
+    <linearGradient id="silver" x1="110" y1="80" x2="405" y2="422" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".28" stop-color="#b7bec7"/>
+      <stop offset=".52" stop-color="#f9fafb"/>
+      <stop offset=".8" stop-color="#737b86"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="205" y1="188" x2="308" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00aaff"/>
+      <stop offset="1" stop-color="#0066ff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0 0 0 0 0 .4 0 0 0 0 1 0 0 0 .9 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="22" y="22" width="468" height="468" rx="72" fill="#0b0d10" stroke="#2e3440" stroke-width="2"/>
+  <path d="M94 97h98l64 63 64-63h98L303 256l116 159h-99l-64-63-64 63H94l116-159L94 97Z" fill="url(#silver)"/>
+  <path d="M149 142h24l83 82 83-82h24L274 256l89 114h-24l-83-82-83 82h-24l89-114-89-114Z" fill="#0b0d10" opacity=".62"/>
+  <g filter="url(#glow)">
+    <rect x="236" y="176" width="40" height="160" rx="10" fill="url(#blue)"/>
+    <rect x="176" y="236" width="160" height="40" rx="10" fill="url(#blue)"/>
+  </g>
+</svg>
