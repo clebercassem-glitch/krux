@@ -17,6 +17,19 @@ Site estático pronto para publicação em GitHub Pages.
 - Chamada direta para WhatsApp.
 - Seções de serviços, diferenciais, método, sobre, público e contato.
 - Provas de autoridade baseadas no currículo de Cleber Cassemiro da Cruz.
+- Kit social para Instagram e Facebook em `social-kit/`, incluindo avatar, capa, destaques, story e posts de rebranding.
+
+## Kit social final
+
+A versão final de rebranding está em:
+
+- `social-kit/assets/png/krux-avatar.png`
+- `social-kit/assets/png/facebook-cover.png`
+- `social-kit/rebrand/png/krux-rebrand-01.png` até `krux-rebrand-09.png`
+- `social-kit/rebrand/png/krux-story-rebrand-launch.png`
+- `social-kit/rebrand/copy/legendas-rebrand-krux.md`
+
+Essas peças reaproveitam os temas antigos da Fortis com a identidade nova da KRUX: preto/grafite, prata/branco e azul elétrico.
 
 ## Contato usado
 
