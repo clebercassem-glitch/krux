@@ -28,8 +28,12 @@ A versão final de rebranding está em:
 - `social-kit/rebrand/png/krux-rebrand-01.png` até `krux-rebrand-09.png`
 - `social-kit/rebrand/png/krux-story-rebrand-launch.png`
 - `social-kit/rebrand/copy/legendas-rebrand-krux.md`
+- `social-kit/reaproveitados-fortis/png/fortis-recriado-krux-01.png` até `fortis-recriado-krux-08.png`
+- `social-kit/reaproveitados-fortis/copy/legendas-posts-fortis-recriados.md`
 
 Essas peças reaproveitam os temas antigos da Fortis com a identidade nova da KRUX: preto/grafite, prata/branco e azul elétrico.
+
+O pacote `reaproveitados-fortis` recria apenas os temas que ainda fazem sentido para a KRUX: manutenção preventiva, checkup antes de formatação, infraestrutura, backup, suporte N3, SQL Server, ERP e integrações. Temas fora do foco atual, como Meta Quest ou assuntos aleatórios, ficam de fora.
 
 ## Contato usado
 
